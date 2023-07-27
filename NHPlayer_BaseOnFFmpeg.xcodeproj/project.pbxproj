@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C87ECF04A40FF62922B4CC93 /* Pods_NHPlayer_BaseOnFFmpegTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A28264428075EF23DBB638F /* Pods_NHPlayer_BaseOnFFmpegTests.framework */; };
+		EF41048354AE9A4F4D4848F7 /* Pods_NHPlayer_BaseOnFFmpeg.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 078A112CB7619315894452B4 /* Pods_NHPlayer_BaseOnFFmpeg.framework */; };
 		F086B4042A710D350035D34D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F086B4032A710D350035D34D /* AppDelegate.m */; };
 		F086B4072A710D350035D34D /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F086B4062A710D350035D34D /* SceneDelegate.m */; };
 		F086B40A2A710D350035D34D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F086B4092A710D350035D34D /* ViewController.m */; };
@@ -17,6 +19,14 @@
 		F086B41F2A710D380035D34D /* NHPlayer_BaseOnFFmpegTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F086B41E2A710D380035D34D /* NHPlayer_BaseOnFFmpegTests.m */; };
 		F086B4292A710D390035D34D /* NHPlayer_BaseOnFFmpegUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F086B4282A710D390035D34D /* NHPlayer_BaseOnFFmpegUITests.m */; };
 		F086B42B2A710D390035D34D /* NHPlayer_BaseOnFFmpegUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F086B42A2A710D390035D34D /* NHPlayer_BaseOnFFmpegUITestsLaunchTests.m */; };
+		F0E8848A2A71EE0E00A15817 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F0E884892A71EE0E00A15817 /* libz.tbd */; };
+		F0E8848C2A71EE1800A15817 /* libbz2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F0E8848B2A71EE1700A15817 /* libbz2.tbd */; };
+		F0E8848E2A71EE2D00A15817 /* libiconv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F0E8848D2A71EE2D00A15817 /* libiconv.tbd */; };
+		F0E884902A71EE3D00A15817 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0E8848F2A71EE3D00A15817 /* AudioToolbox.framework */; };
+		F0E884922A71EE4C00A15817 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0E884912A71EE4C00A15817 /* CoreMedia.framework */; };
+		F0E884942A71EE5800A15817 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0E884932A71EE5800A15817 /* CoreVideo.framework */; };
+		F0E884962A71EE6100A15817 /* VideoToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0E884952A71EE6100A15817 /* VideoToolbox.framework */; };
+		F8C32E854B55BC498D365031 /* Pods_NHPlayer_BaseOnFFmpeg_NHPlayer_BaseOnFFmpegUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB4E7E42792B8A76B80624C9 /* Pods_NHPlayer_BaseOnFFmpeg_NHPlayer_BaseOnFFmpegUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +47,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		078A112CB7619315894452B4 /* Pods_NHPlayer_BaseOnFFmpeg.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NHPlayer_BaseOnFFmpeg.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A28264428075EF23DBB638F /* Pods_NHPlayer_BaseOnFFmpegTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NHPlayer_BaseOnFFmpegTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1AAA279757A331E2388B071E /* Pods-NHPlayer_BaseOnFFmpeg-NHPlayer_BaseOnFFmpegUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NHPlayer_BaseOnFFmpeg-NHPlayer_BaseOnFFmpegUITests.release.xcconfig"; path = "Target Support Files/Pods-NHPlayer_BaseOnFFmpeg-NHPlayer_BaseOnFFmpegUITests/Pods-NHPlayer_BaseOnFFmpeg-NHPlayer_BaseOnFFmpegUITests.release.xcconfig"; sourceTree = "<group>"; };
+		46C5E590821F8C0D39CF100B /* Pods-NHPlayer_BaseOnFFmpeg-NHPlayer_BaseOnFFmpegUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NHPlayer_BaseOnFFmpeg-NHPlayer_BaseOnFFmpegUITests.debug.xcconfig"; path = "Target Support Files/Pods-NHPlayer_BaseOnFFmpeg-NHPlayer_BaseOnFFmpegUITests/Pods-NHPlayer_BaseOnFFmpeg-NHPlayer_BaseOnFFmpegUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		6C6FF8942F81DD418D34FFFD /* Pods-NHPlayer_BaseOnFFmpegTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NHPlayer_BaseOnFFmpegTests.debug.xcconfig"; path = "Target Support Files/Pods-NHPlayer_BaseOnFFmpegTests/Pods-NHPlayer_BaseOnFFmpegTests.debug.xcconfig"; sourceTree = "<group>"; };
+		8550F30A682D3A7C4B9BB240 /* Pods-NHPlayer_BaseOnFFmpeg.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NHPlayer_BaseOnFFmpeg.release.xcconfig"; path = "Target Support Files/Pods-NHPlayer_BaseOnFFmpeg/Pods-NHPlayer_BaseOnFFmpeg.release.xcconfig"; sourceTree = "<group>"; };
+		B6F4D060089F60910A6CC02D /* Pods-NHPlayer_BaseOnFFmpegTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NHPlayer_BaseOnFFmpegTests.release.xcconfig"; path = "Target Support Files/Pods-NHPlayer_BaseOnFFmpegTests/Pods-NHPlayer_BaseOnFFmpegTests.release.xcconfig"; sourceTree = "<group>"; };
+		CBAE8969DF95A16240BFF981 /* Pods-NHPlayer_BaseOnFFmpeg.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NHPlayer_BaseOnFFmpeg.debug.xcconfig"; path = "Target Support Files/Pods-NHPlayer_BaseOnFFmpeg/Pods-NHPlayer_BaseOnFFmpeg.debug.xcconfig"; sourceTree = "<group>"; };
+		DB4E7E42792B8A76B80624C9 /* Pods_NHPlayer_BaseOnFFmpeg_NHPlayer_BaseOnFFmpegUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NHPlayer_BaseOnFFmpeg_NHPlayer_BaseOnFFmpegUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F086B3FF2A710D350035D34D /* NHPlayer_BaseOnFFmpeg.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NHPlayer_BaseOnFFmpeg.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F086B4022A710D350035D34D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F086B4032A710D350035D34D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -54,6 +73,13 @@
 		F086B4242A710D390035D34D /* NHPlayer_BaseOnFFmpegUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NHPlayer_BaseOnFFmpegUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F086B4282A710D390035D34D /* NHPlayer_BaseOnFFmpegUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NHPlayer_BaseOnFFmpegUITests.m; sourceTree = "<group>"; };
 		F086B42A2A710D390035D34D /* NHPlayer_BaseOnFFmpegUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NHPlayer_BaseOnFFmpegUITestsLaunchTests.m; sourceTree = "<group>"; };
+		F0E884892A71EE0E00A15817 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		F0E8848B2A71EE1700A15817 /* libbz2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libbz2.tbd; path = usr/lib/libbz2.tbd; sourceTree = SDKROOT; };
+		F0E8848D2A71EE2D00A15817 /* libiconv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libiconv.tbd; path = usr/lib/libiconv.tbd; sourceTree = SDKROOT; };
+		F0E8848F2A71EE3D00A15817 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		F0E884912A71EE4C00A15817 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		F0E884932A71EE5800A15817 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		F0E884952A71EE6100A15817 /* VideoToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VideoToolbox.framework; path = System/Library/Frameworks/VideoToolbox.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +87,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F0E884962A71EE6100A15817 /* VideoToolbox.framework in Frameworks */,
+				F0E884942A71EE5800A15817 /* CoreVideo.framework in Frameworks */,
+				F0E884922A71EE4C00A15817 /* CoreMedia.framework in Frameworks */,
+				F0E884902A71EE3D00A15817 /* AudioToolbox.framework in Frameworks */,
+				F0E8848E2A71EE2D00A15817 /* libiconv.tbd in Frameworks */,
+				F0E8848C2A71EE1800A15817 /* libbz2.tbd in Frameworks */,
+				F0E8848A2A71EE0E00A15817 /* libz.tbd in Frameworks */,
+				EF41048354AE9A4F4D4848F7 /* Pods_NHPlayer_BaseOnFFmpeg.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +102,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C87ECF04A40FF62922B4CC93 /* Pods_NHPlayer_BaseOnFFmpegTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,12 +110,43 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F8C32E854B55BC498D365031 /* Pods_NHPlayer_BaseOnFFmpeg_NHPlayer_BaseOnFFmpegUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B6C341E40941DE147D4EE132 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CBAE8969DF95A16240BFF981 /* Pods-NHPlayer_BaseOnFFmpeg.debug.xcconfig */,
+				8550F30A682D3A7C4B9BB240 /* Pods-NHPlayer_BaseOnFFmpeg.release.xcconfig */,
+				46C5E590821F8C0D39CF100B /* Pods-NHPlayer_BaseOnFFmpeg-NHPlayer_BaseOnFFmpegUITests.debug.xcconfig */,
+				1AAA279757A331E2388B071E /* Pods-NHPlayer_BaseOnFFmpeg-NHPlayer_BaseOnFFmpegUITests.release.xcconfig */,
+				6C6FF8942F81DD418D34FFFD /* Pods-NHPlayer_BaseOnFFmpegTests.debug.xcconfig */,
+				B6F4D060089F60910A6CC02D /* Pods-NHPlayer_BaseOnFFmpegTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		ED7173CAF85B029F7358C0BE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F0E884952A71EE6100A15817 /* VideoToolbox.framework */,
+				F0E884932A71EE5800A15817 /* CoreVideo.framework */,
+				F0E884912A71EE4C00A15817 /* CoreMedia.framework */,
+				F0E8848F2A71EE3D00A15817 /* AudioToolbox.framework */,
+				F0E8848D2A71EE2D00A15817 /* libiconv.tbd */,
+				F0E8848B2A71EE1700A15817 /* libbz2.tbd */,
+				F0E884892A71EE0E00A15817 /* libz.tbd */,
+				078A112CB7619315894452B4 /* Pods_NHPlayer_BaseOnFFmpeg.framework */,
+				DB4E7E42792B8A76B80624C9 /* Pods_NHPlayer_BaseOnFFmpeg_NHPlayer_BaseOnFFmpegUITests.framework */,
+				0A28264428075EF23DBB638F /* Pods_NHPlayer_BaseOnFFmpegTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		F086B3F62A710D350035D34D = {
 			isa = PBXGroup;
 			children = (
@@ -88,6 +154,8 @@
 				F086B41D2A710D380035D34D /* NHPlayer_BaseOnFFmpegTests */,
 				F086B4272A710D390035D34D /* NHPlayer_BaseOnFFmpegUITests */,
 				F086B4002A710D350035D34D /* Products */,
+				B6C341E40941DE147D4EE132 /* Pods */,
+				ED7173CAF85B029F7358C0BE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -143,6 +211,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F086B42E2A710D390035D34D /* Build configuration list for PBXNativeTarget "NHPlayer_BaseOnFFmpeg" */;
 			buildPhases = (
+				9AACAC8AA430F82DB069BD07 /* [CP] Check Pods Manifest.lock */,
 				F086B3FB2A710D350035D34D /* Sources */,
 				F086B3FC2A710D350035D34D /* Frameworks */,
 				F086B3FD2A710D350035D34D /* Resources */,
@@ -160,6 +229,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F086B4312A710D390035D34D /* Build configuration list for PBXNativeTarget "NHPlayer_BaseOnFFmpegTests" */;
 			buildPhases = (
+				2019CD1FAD40E46174C3F619 /* [CP] Check Pods Manifest.lock */,
 				F086B4162A710D380035D34D /* Sources */,
 				F086B4172A710D380035D34D /* Frameworks */,
 				F086B4182A710D380035D34D /* Resources */,
@@ -178,6 +248,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F086B4342A710D390035D34D /* Build configuration list for PBXNativeTarget "NHPlayer_BaseOnFFmpegUITests" */;
 			buildPhases = (
+				F61B17790257F27915D1563A /* [CP] Check Pods Manifest.lock */,
 				F086B4202A710D390035D34D /* Sources */,
 				F086B4212A710D390035D34D /* Frameworks */,
 				F086B4222A710D390035D34D /* Resources */,
@@ -260,6 +331,75 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2019CD1FAD40E46174C3F619 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NHPlayer_BaseOnFFmpegTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9AACAC8AA430F82DB069BD07 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NHPlayer_BaseOnFFmpeg-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F61B17790257F27915D1563A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NHPlayer_BaseOnFFmpeg-NHPlayer_BaseOnFFmpegUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		F086B3FB2A710D350035D34D /* Sources */ = {
@@ -437,6 +577,7 @@
 		};
 		F086B42F2A710D390035D34D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CBAE8969DF95A16240BFF981 /* Pods-NHPlayer_BaseOnFFmpeg.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -464,6 +605,7 @@
 		};
 		F086B4302A710D390035D34D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8550F30A682D3A7C4B9BB240 /* Pods-NHPlayer_BaseOnFFmpeg.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -491,6 +633,7 @@
 		};
 		F086B4322A710D390035D34D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6C6FF8942F81DD418D34FFFD /* Pods-NHPlayer_BaseOnFFmpegTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -509,6 +652,7 @@
 		};
 		F086B4332A710D390035D34D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B6F4D060089F60910A6CC02D /* Pods-NHPlayer_BaseOnFFmpegTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -527,6 +671,7 @@
 		};
 		F086B4352A710D390035D34D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 46C5E590821F8C0D39CF100B /* Pods-NHPlayer_BaseOnFFmpeg-NHPlayer_BaseOnFFmpegUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -543,6 +688,7 @@
 		};
 		F086B4362A710D390035D34D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1AAA279757A331E2388B071E /* Pods-NHPlayer_BaseOnFFmpeg-NHPlayer_BaseOnFFmpegUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
